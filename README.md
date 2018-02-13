@@ -1,5 +1,5 @@
 # webpack-url-loader
-module.exports = {
+#module.exports = {
   module: {
     rules: [
       {
@@ -16,9 +16,9 @@ module.exports = {
     ]
   }
 }
-name	type	default	description
-limit	{Number}	undefined	Byte limit to inline files as Data URL
-mimetype	{String}	extname	Specify MIME type for the file (Otherwise it's inferred from the file extension)
-fallback	{String}	file-loader	Specify loader for the file when file is greater than the limit (in bytes)
+#name	type	default	description
+#limit	{Number}	undefined	Byte limit to inline files as Data URL
+#mimetype	{String}	extname	Specify MIME type for the file (Otherwise it's inferred from the file extension)
+#fallback	{String}	file-loader	Specify loader for the file when file is greater than the limit (in bytes)
 
 图片的压缩
